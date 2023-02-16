@@ -15,6 +15,12 @@
         width: auto;
     }
 }
+@media (max-width:610px) {
+    .middle-body-grid{
+        display: flex;;
+        justify-content: center;
+    }
+}
 .middle-body{
     /* margin-top: -10; */
     background-color: #172131;
