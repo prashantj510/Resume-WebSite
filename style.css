@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    margin: 0;
+    background-color: #1a2639;
+    /* backdrop-filter: blur(2px); */
+}
+
+.top-body{
+    background-image: url("Assets/Pictures/Background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 5px 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    background-color: #1a2639;
+}
+.Home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* color:transparent; */
+    /* backdrop-filter: blur(10px); */
+}
+
+@media (max-width: 500px) {
+    .Home {
+        flex-direction: column;
+    }
+}
+
+
+
+.profile-pic {
+    margin: 10px 13px;
+    background-size: cover;
+    width: 250px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    transition: all 0.4s;
+}
+.profile-pic:hover{
+    transform: scale(102%);
+}
+
+.intro-container {
+    background: rgba(204, 199, 158, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    border: 1px solid rgba(204, 199, 158, 0.17);
+    padding: 12px;
+    min-width: 240px;
+    max-width: 400px;
+    transition: all 0.4s;
+}
+.intro-container:hover{
+    transform: scale(102%);
+}
+
+.intro-container h1 {
+    font-family: Anton;
+    letter-spacing: 2px;
+    font-size: 43px;
+    color: rgb(255, 245, 245);
+    margin: 5px 2px;
+    min-width: 250px;
+    /* width: 230px */
+    /* backdrop-filter: blur(10px); */
+}
+
+.intro-container h2{
+    color: #43dde6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+}
+
+.intro-container h3{
+    color: #f0f0f0;
+    font-family: cursive;
+}
