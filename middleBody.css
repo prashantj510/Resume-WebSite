@@ -48,6 +48,8 @@
     transform: scale(102%);
 }
 .skills-box h3{
+    font-size: 25px;
+    margin-left: 15px;
     color: rgb(220, 226, 231);
     text-shadow: 2px 2px 4px 8px rgba(0, 0, 0, 0.7);
 }
